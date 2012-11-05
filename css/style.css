@@ -1,0 +1,63 @@
+#map {
+	border: 1px solid gray;
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+}
+
+#wrap {
+	width: 800px;
+	margin: 0 auto;
+}	
+
+#wrap p {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html, body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+
+/* Set the fixed height of the footer here */
+#footer {
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+}
+
+#footer {
+	background-color: #f5f5f5;
+	width: 100%;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+	width: auto;
+	max-width: 680px;
+}
+
+.container .credit {
+	margin: 20px 0;
+}
